@@ -2,7 +2,7 @@
 class Shoe
     #attr_accessor :author, :page_count, :genre
     attr_reader :brand, 
-    attr_accessor :condition, 
+    attr_accessor :condition 
     def initialize(brand)
       @brand = brand
     end
